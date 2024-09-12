@@ -28,3 +28,8 @@ def maxProfit(prices):
         _profit = max(_profit, prices[i]-buy)
 
     return _profit
+
+if __name__ == "__main__":
+    prices = list(map(int, input("Enter the prices separated by space: ").split()))
+    max_profit = maxProfit(prices)
+    print("Maximum profit:", max_profit)

@@ -33,3 +33,20 @@ def searchMatrix(matrix, target: int) -> bool:
                     return True
             return False
     return False
+
+if __name__ == "__main__":
+    matrix = [
+        [1, 3, 5, 7],
+        [10, 11, 16, 20],
+        [23, 30, 34, 60]
+    ]
+
+    target = int(input("Enter the target value: "))
+
+    searchObj = searchMatrix()
+    result = searchObj.searchMatrix(matrix, target)
+
+    if result:
+        print("Target found in the matrix.")
+    else:
+        print("Target not found in the matrix.")

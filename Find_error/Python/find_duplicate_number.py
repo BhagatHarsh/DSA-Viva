@@ -15,7 +15,6 @@ Sample Input : nums = [1,3,4,2,2]
 '''
 
 def findDuplicate(nums):
-    
     visited = [0 for _ in range(len(nums)-1)]
     
     for i in nums:
@@ -23,3 +22,8 @@ def findDuplicate(nums):
             return i
         else:
             visited[i] = 1
+
+if __name__ == "__main__":
+    nums = list(map(int, input("Enter the elements separated by space: ").split()))
+    duplicate = findDuplicate(nums)
+    print("The duplicate number is:", duplicate)

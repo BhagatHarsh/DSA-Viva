@@ -10,7 +10,7 @@ def func(arr):
     return total
 ```
 
-## Algorithm 2: O(n^2)
+## Algorithm 2: O(logn)
 
 ```python
 def func(arr):

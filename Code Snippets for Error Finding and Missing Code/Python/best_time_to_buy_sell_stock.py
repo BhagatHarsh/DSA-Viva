@@ -23,7 +23,8 @@ def maxProfit(prices):
 
     for i in range(1, len(prices)):
 
-        # insert code here
+        if prices[i] < buy:
+            buy = prices[i]
 
         _profit = max(_profit, prices[i]-buy)
 

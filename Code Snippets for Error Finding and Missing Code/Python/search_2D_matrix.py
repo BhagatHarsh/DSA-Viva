@@ -26,7 +26,7 @@ def searchMatrix(matrix, target: int) -> bool:
         if matrix[i][n-1] == target:
             return True
         
-        # add the necessary if statement here
+        if matrix[i][n-1] > target:
 
             for j in range(n):
                 if matrix[i][j] == target:

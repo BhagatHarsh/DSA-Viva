@@ -1,6 +1,6 @@
-- past contest questions || debug a peice of code.[5]
+- past contest questions ||  dry run a testcase in a given code.[5]
 
-- explain the logic. || dry run a testcase in a given code. (mainly recursive) [5]
+- explain the logic. || debug a peice of code.(mainly recursive) [5]
 
 - given a tree traverse it give the pre post in order traversal. [5]
 - Theoretical questions about any Data structure. (explain concept) [5]
